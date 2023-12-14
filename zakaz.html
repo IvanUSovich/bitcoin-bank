@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Не пропустите наш звонок!</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" rel=preload />
+    
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        background-color: #16181d;
+        color: rgb(117, 231, 255);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .br_visiable {
+        display: block;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .content {
+        flex: 1 0 auto;
+    }
+
+    .footer {
+        flex: 0 0 auto;
+    }
+
+    .br_visiable,
+    .title br {
+        display: none;
+    }
+
+    .container {
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .logo {
+        margin-top: 30px;
+        width: 196px;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .call-icon {
+        margin-right: 80px;
+    }
+
+    .general {
+        display: flex;
+    }
+
+    .ty-text {
+        color: #F8D100;
+        ;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: rgb(117, 231, 255);
+        margin-bottom: 15px;
+
+    }
+
+    .sub-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 25px;
+        color: #ffffff;
+    }
+
+    .marked-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgb(117, 231, 255);
+    }
+
+    .block-email {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+    }
+
+    .email-text {
+        line-height: 25px;
+        font-size: 20px;
+        color: #2a2e34;
+        font-weight: 600;
+    }
+
+    hr {
+        color: rgb(117, 231, 255);
+    }
+
+    .email {
+        margin-right: 20px;
+    }
+
+    .line {
+        margin-bottom: 24px;
+    }
+
+    @media screen and (max-width:768px) {
+        .general {
+            display: flex;
+            max-width: 620px;
+            flex-direction: column;
+        }
+
+        .call-icon {
+            align-self: center;
+        }
+
+        .ty-text,
+        .title,
+        .sub-title,
+        .marked-text {
+            text-align: center;
+        }
+
+        .marked-text {
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            width: 111px;
+            margin-top: 10px
+        }
+
+        .sub-title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .ty-text {
+            margin-bottom: 10px;
+        }
+
+        br,
+        .br_visiable {
+            display: none;
+        }
+
+        .call-icon {
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+
+        .img_phone {
+            width: 156px;
+        }
+
+        .email-text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+
+        .img_mail {
+            width: 45px
+        }
+
+        .title {
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .title br {
+            display: block
+        }
+    }
+</style>
+
+<body id="bc-tp-ebook-ru">
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+            </div>
+        </header>
+        <div class="content">
+            <div class="container">
+                <div class="general">
+                    <div class="call-icon">
+                    </div>
+                    <div class="general-text">
+                        <h1 class="title">Не пропустите наш звонок!</h1>
+                        <p class="sub-title">Наш менеджер свяжется с Вами и поможет начать!</p>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
